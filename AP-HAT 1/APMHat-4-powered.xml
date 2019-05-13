@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\Stephen\Desktop\KakutePi\APMHat4-Powered\APMHat-4-powered.sch</source>
+    <source>APMHat-4-powered.sch</source>
     <date>28/04/2019 8:47:31 PM</date>
     <tool>Eeschema (5.0.1)-4</tool>
     <sheet number="1" name="/" tstamps="/">
@@ -1339,16 +1339,16 @@
       <uri>C:\Program Files\KiCad\share\kicad\library/Memory_EEPROM.lib</uri>
     </library>
     <library logical="OPL_Resistor">
-      <uri>C:/Users/Stephen/Desktop/KakutePi/Lib/Seeed_Fusion_PCBA_OPL_Component_Library_for_KiCad/OPL_Resistor.lib</uri>
+      <uri>../Lib/Seeed_Fusion_PCBA_OPL_Component_Library_for_KiCad/OPL_Resistor.lib</uri>
     </library>
     <library logical="OPL_Switch">
-      <uri>C:/Users/Stephen/Desktop/KakutePi/Lib/Seeed_Fusion_PCBA_OPL_Component_Library_for_KiCad/OPL_Switch.lib</uri>
+      <uri>../Lib/Seeed_Fusion_PCBA_OPL_Component_Library_for_KiCad/OPL_Switch.lib</uri>
     </library>
     <library logical="PiBits">
-      <uri>C:/Users/Stephen/Desktop/KakutePi/Lib/PiBits.lib</uri>
+      <uri>../Lib/PiBits.lib</uri>
     </library>
     <library logical="SC16IS752">
-      <uri>C:/Users/Stephen/Desktop/KakutePi/Lib/SC16IS752.lib</uri>
+      <uri>../Lib/SC16IS752.lib</uri>
     </library>
     <library logical="SparkFun-Capacitors">
       <uri>C:\Program Files\KiCad\share\kicad\library/SparkFun-Capacitors.lib</uri>
@@ -1357,7 +1357,7 @@
       <uri>C:\Program Files\KiCad\share\kicad\library/SparkFun-Connectors.lib</uri>
     </library>
     <library logical="TI_additional">
-      <uri>C:/Users/Stephen/Desktop/KakutePi/Lib/TI_additional.lib</uri>
+      <uri>../Lib/TI_additional.lib</uri>
     </library>
   </libraries>
   <nets>
