@@ -572,7 +572,7 @@ U 1 1 5C5F9B3D
 P 10500 7400
 F 0 "J6" H 10420 7075 50  0000 C CNN
 F 1 "Power_Pad" H 10420 7166 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P5.08mm_Drill1.5mm" H 10500 7400 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" H 10500 7400 50  0001 C CNN
 F 3 "~" H 10500 7400 50  0001 C CNN
 F 4 "" H 400 4400 50  0001 C CNN "MFR"
 F 5 "" H 400 4400 50  0001 C CNN "MPN"
@@ -687,7 +687,7 @@ F 3 "" H 3150 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 10150 4450 0    50   ~ 0
-VIN_RAW
+VIN_POST
 Text Label 10850 7400 0    50   ~ 0
 VIN_RAW
 Text Label 12450 4300 0    50   ~ 0
