@@ -2,4 +2,5 @@
   (lib (name PiBits)(type Legacy)(uri ${KIPRJMOD}/../Lib/PiBits.lib)(options "")(descr ""))
   (lib (name TI_additional)(type Legacy)(uri ${KIPRJMOD}/../Lib/TI_additional.lib)(options "")(descr ""))
   (lib (name SC16IS752)(type Legacy)(uri ${KIPRJMOD}/../Lib/SC16IS752.lib)(options "")(descr ""))
+  (lib (name OPL_Switch)(type Legacy)(uri ${KIPRJMOD}/../Lib/OPL_Switch.lib)(options "")(descr ""))
 )
