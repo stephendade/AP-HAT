@@ -1177,7 +1177,7 @@ SCLK
 Wire Wire Line
 	8300 10500 7450 10500
 Text Label 7450 10500 0    50   ~ 0
-SCLK
+SPI1_SCLK
 Wire Wire Line
 	9700 9900 10450 9900
 $Comp
@@ -1278,7 +1278,7 @@ CS1
 Wire Wire Line
 	8300 10200 7650 10200
 Text Label 7650 10200 0    50   ~ 0
-CS1
+SPI1_CS0
 Wire Wire Line
 	3450 3400 4000 3400
 Wire Wire Line
@@ -1292,9 +1292,9 @@ Wire Wire Line
 Wire Wire Line
 	8300 10300 7950 10300
 Text Label 7950 10300 0    50   ~ 0
-MOSI
+SPI1_MOSI
 Text Label 7950 10400 0    50   ~ 0
-MISO
+SPI1_MISO
 $Comp
 L Connector_Generic:Conn_01x06 J5
 U 1 1 5CCC3FE2
