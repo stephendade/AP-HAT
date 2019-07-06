@@ -2304,4 +2304,20 @@ F 3 "" H 4050 10050 50  0001 C CNN
 	1    4050 10050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1850 2700 1300 2700
+Text Label 1300 2700 0    50   ~ 0
+SPI1_CS0
+Wire Wire Line
+	1850 2900 1300 2900
+Wire Wire Line
+	1850 3000 1300 3000
+Wire Wire Line
+	1850 3100 1300 3100
+Text Label 1300 2900 0    50   ~ 0
+SPI1_MISO
+Text Label 1300 3000 0    50   ~ 0
+SPI1_MOSI
+Text Label 1300 3100 0    50   ~ 0
+SPI1_SCLK
 $EndSCHEMATC
