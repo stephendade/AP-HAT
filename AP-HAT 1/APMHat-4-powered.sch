@@ -1196,31 +1196,31 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x06 J3
 U 1 1 5CC61516
-P 3650 8900
-F 0 "J3" H 3678 8876 50  0000 L CNN
-F 1 "Conn_Telemetry" H 3678 8785 50  0000 L CNN
-F 2 "Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal" H 3650 8900 50  0001 C CNN
-F 3 "~" H 3650 8900 50  0001 C CNN
-F 4 "JST Sales America Inc." H -700 -150 50  0001 C CNN "MFR"
-F 5 "SM06B-GHS-TB(LF)(SN)" H -700 -150 50  0001 C CNN "MPN"
-F 6 "455-1568-1-ND" H -700 -150 50  0001 C CNN "SPN"
-F 7 "Digikey" H -700 -150 50  0001 C CNN "SPR"
-F 8 "85" H 3650 8900 50  0001 C CNN "Max Temp (C)"
-F 9 "-25" H 3650 8900 50  0001 C CNN "Min Temp (C)"
-	1    3650 8900
+P 3600 8900
+F 0 "J3" H 3628 8876 50  0000 L CNN
+F 1 "Conn_Telemetry" H 3628 8785 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 3600 8900 50  0001 C CNN
+F 3 "~" H 3600 8900 50  0001 C CNN
+F 4 "~" H -750 -150 50  0001 C CNN "MFR"
+F 5 "~" H -750 -150 50  0001 C CNN "MPN"
+F 6 "~" H -750 -150 50  0001 C CNN "SPN"
+F 7 "~" H -750 -150 50  0001 C CNN "SPR"
+F 8 "~" H 3600 8900 50  0001 C CNN "Max Temp (C)"
+F 9 "~" H 3600 8900 50  0001 C CNN "Min Temp (C)"
+	1    3600 8900
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3850 8600 4050 8600
+	3800 9100 4000 9100
 $Comp
 L power:GND #PWR06
 U 1 1 5CC65D4B
-P 4050 8600
-F 0 "#PWR06" H 4050 8350 50  0001 C CNN
-F 1 "GND" V 4055 8472 50  0000 R CNN
-F 2 "" H 4050 8600 50  0001 C CNN
-F 3 "" H 4050 8600 50  0001 C CNN
-	1    4050 8600
+P 4000 9100
+F 0 "#PWR06" H 4000 8850 50  0001 C CNN
+F 1 "GND" V 4005 8972 50  0000 R CNN
+F 2 "" H 4000 9100 50  0001 C CNN
+F 3 "" H 4000 9100 50  0001 C CNN
+	1    4000 9100
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -1231,13 +1231,11 @@ Text Label 7850 9500 0    50   ~ 0
 TXA
 Text Label 7850 9600 0    50   ~ 0
 RXA
-Wire Wire Line
-	3850 9100 4150 9100
 Text Label 3100 9750 2    50   ~ 0
 P5V_HAT
-Text Label 4150 9000 2    50   ~ 0
+Text Label 4100 8700 2    50   ~ 0
 RXA
-Text Label 4150 8900 2    50   ~ 0
+Text Label 4100 8800 2    50   ~ 0
 TXA
 Wire Wire Line
 	8300 9400 7850 9400
@@ -1247,9 +1245,9 @@ Text Label 7850 9300 0    50   ~ 0
 RTSA
 Text Label 7850 9400 0    50   ~ 0
 CTSA
-Text Label 4150 8800 2    50   ~ 0
+Text Label 4100 8600 2    50   ~ 0
 RTSA
-Text Label 4150 8700 2    50   ~ 0
+Text Label 4100 9000 2    50   ~ 0
 CTSA
 $Comp
 L Device:R R6
@@ -1305,12 +1303,12 @@ F 0 "J5" H 4678 10276 50  0000 L CNN
 F 1 "Conn_Telemetry" H 4678 10185 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 4650 10300 50  0001 C CNN
 F 3 "~" H 4650 10300 50  0001 C CNN
-F 4 "Wurth Electronics Inc." H -700 350 50  0001 C CNN "MFR"
-F 5 "61300611121" H -700 350 50  0001 C CNN "MPN"
-F 6 "732-5319-ND" H -700 350 50  0001 C CNN "SPN"
-F 7 "Digikey" H -700 350 50  0001 C CNN "SPR"
-F 8 "125" H 4650 10300 50  0001 C CNN "Max Temp (C)"
-F 9 "-40" H 4650 10300 50  0001 C CNN "Min Temp (C)"
+F 4 "~" H -700 350 50  0001 C CNN "MFR"
+F 5 "~" H -700 350 50  0001 C CNN "MPN"
+F 6 "~" H -700 350 50  0001 C CNN "SPN"
+F 7 "~" H -700 350 50  0001 C CNN "SPR"
+F 8 "~" H 4650 10300 50  0001 C CNN "Max Temp (C)"
+F 9 "~" H 4650 10300 50  0001 C CNN "Min Temp (C)"
 	1    4650 10300
 	-1   0    0    1   
 $EndComp
@@ -1577,8 +1575,6 @@ Wire Wire Line
 Wire Wire Line
 	3250 9750 3200 9750
 Wire Wire Line
-	4150 9100 4150 9350
-Wire Wire Line
 	4150 9750 4050 9750
 Connection ~ 4150 9350
 Wire Wire Line
@@ -1807,13 +1803,13 @@ $EndComp
 Text Notes 11100 7150 0    50   ~ 0
 ESD Protection
 Wire Wire Line
-	3850 8700 4300 8700
+	3800 9000 4250 9000
 Wire Wire Line
-	3850 8800 4450 8800
+	3800 8600 4400 8600
 Wire Wire Line
-	3850 8900 4550 8900
+	3800 8800 4500 8800
 Wire Wire Line
-	3850 9000 4700 9000
+	3800 8700 4650 8700
 Wire Wire Line
 	5450 8950 6400 8950
 Wire Wire Line
@@ -2184,4 +2180,8 @@ Text Label 1300 3000 0    50   ~ 0
 SPI1_MOSI
 Text Label 1300 3100 0    50   ~ 0
 SPI1_SCLK
+Wire Wire Line
+	4150 8900 3800 8900
+Wire Wire Line
+	4150 8900 4150 9350
 $EndSCHEMATC
