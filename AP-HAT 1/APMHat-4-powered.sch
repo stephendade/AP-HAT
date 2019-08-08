@@ -1898,15 +1898,7 @@ F 9 "-55" H 7550 7300 50  0001 C CNN "Min Temp (C)"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7300 7200 7350 7200
-Wire Wire Line
-	7350 7200 7350 7050
-Wire Wire Line
-	7350 7050 7400 7050
-Wire Wire Line
 	7300 7300 7400 7300
-Wire Wire Line
-	7300 7400 7400 7400
 Wire Wire Line
 	7700 6250 8400 6250
 Wire Wire Line
@@ -1973,8 +1965,6 @@ F 10 "-55" H 1350 3850 50  0001 C CNN "Min Temp (C)"
 	1    1350 3850
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	7400 7400 7400 7650
 Wire Wire Line
 	7700 7300 7850 7300
 Wire Wire Line
@@ -2215,4 +2205,24 @@ F 3 "" H 10800 7650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9800 8100 10950 8100
+Wire Wire Line
+	7400 7050 7400 7200
+Wire Wire Line
+	7400 7200 7600 7200
+Wire Wire Line
+	7600 7200 7600 7400
+Wire Wire Line
+	7600 7400 7300 7400
+Wire Wire Line
+	7400 7650 7050 7650
+Wire Wire Line
+	7050 7650 7050 7900
+Wire Wire Line
+	7050 7900 6600 7900
+Wire Wire Line
+	6600 7900 6600 6900
+Wire Wire Line
+	6600 6900 7300 6900
+Wire Wire Line
+	7300 6900 7300 7200
 $EndSCHEMATC
