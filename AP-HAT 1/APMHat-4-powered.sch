@@ -689,8 +689,6 @@ Wire Wire Line
 	13150 4150 12800 4150
 Wire Wire Line
 	12800 4150 12800 3950
-Text Notes 1050 8650 0    118  ~ 24
-Changes from V2.0
 $Comp
 L Connector_Generic:Conn_01x06 J4
 U 1 1 5CBAC52E
@@ -755,7 +753,7 @@ F 3 "" H 12100 8850 50  0001 C CNN
 	1    12100 8850
 	1    0    0    -1  
 $EndComp
-Text Notes 5500 8000 0    118  ~ 24
+Text Notes 4650 8150 0    118  ~ 24
 Ports
 Wire Wire Line
 	5450 8550 5850 8550
@@ -1030,7 +1028,7 @@ F 3 "" H 14400 8600 50  0001 C CNN
 	1    14400 8600
 	1    0    0    -1  
 $EndComp
-Text Notes 11950 3250 0    118  ~ 24
+Text Notes 11550 3650 0    118  ~ 24
 Power Switch
 $Comp
 L TI_additional:TPS709 U4
@@ -1053,16 +1051,6 @@ Wire Wire Line
 	10900 4550 10900 4750
 Wire Wire Line
 	10900 4750 11900 4750
-Text Notes 1100 8800 0    50   ~ 0
-Power Supply upgraded to 6.5-30V in, 5.1V @ 3A out
-Text Notes 1100 8900 0    50   ~ 0
-3.3V LDO changed to Vin Max 30V
-Text Notes 1100 9000 0    50   ~ 0
-Removed 3.3V diode, as LDO has protection
-Text Notes 1100 9150 0    50   ~ 0
-Removed Polulu Footprint
-Text Notes 1100 9250 0    50   ~ 0
-Removed Kakute and related parts
 $Comp
 L Device:D_Schottky D1
 U 1 1 5CBF1D05
@@ -1082,8 +1070,6 @@ F 9 "-40" H 9650 8100 50  0001 C CNN "Min Temp (C)"
 $EndComp
 Wire Wire Line
 	9500 8100 8950 8100
-Text Notes 1100 9350 0    50   ~ 0
-Added Reverse protection for Power supply
 Text Notes 9350 8000 0    50   ~ 0
 0.47V drop
 Text Label 5750 8850 0    50   ~ 0
@@ -1703,40 +1689,6 @@ F 9 "-40" H 9000 6250 50  0001 C CNN "Min Temp (C)"
 	1    9000 6250
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_02x03_Odd_Even J7
-U 1 1 5CC344EA
-P 7000 7300
-F 0 "J7" H 7050 7617 50  0000 C CNN
-F 1 "ADC Connector" H 7050 7526 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 7000 7300 50  0001 C CNN
-F 3 "~" H 7000 7300 50  0001 C CNN
-F 4 "~" H -1000 950 50  0001 C CNN "MFR"
-F 5 "~" H -1000 950 50  0001 C CNN "MPN"
-F 6 "~" H -1000 950 50  0001 C CNN "SPN"
-F 7 "~" H -1000 950 50  0001 C CNN "SPR"
-	1    7000 7300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6800 7200 6800 7300
-Wire Wire Line
-	6800 7300 6800 7400
-Connection ~ 6800 7300
-Connection ~ 6800 7400
-$Comp
-L power:GND #PWR0102
-U 1 1 5CCC3D36
-P 6800 7700
-F 0 "#PWR0102" H 6800 7450 50  0001 C CNN
-F 1 "GND" H 6805 7527 50  0000 C CNN
-F 2 "" H 6800 7700 50  0001 C CNN
-F 3 "" H 6800 7700 50  0001 C CNN
-	1    6800 7700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6800 7400 6800 7700
 Wire Wire Line
 	7400 6050 8400 6050
 $Comp
@@ -1903,12 +1855,6 @@ Wire Wire Line
 	7700 6250 8400 6250
 Wire Wire Line
 	7850 6350 8400 6350
-Text Notes 1100 9450 0    50   ~ 0
-Added ESD protection for serial ports and power in
-Text Notes 1100 9550 0    50   ~ 0
-Added ADC
-Text Notes 1100 9650 0    50   ~ 0
-Added Serial <-> SPI IC
 Text Notes 4200 9450 0    50   ~ 0
 Serial ports 0.5A limit
 $Comp
@@ -2205,24 +2151,44 @@ F 3 "" H 10800 7650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9800 8100 10950 8100
+$Comp
+L Connector_Generic:Conn_01x04 J7
+U 1 1 5D5108E7
+P 6850 7500
+F 0 "J7" H 6768 7075 50  0000 C CNN
+F 1 "Conn_01x04" H 6768 7166 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6850 7500 50  0001 C CNN
+F 3 "~" H 6850 7500 50  0001 C CNN
+	1    6850 7500
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
-	7400 7050 7400 7200
+	7050 7400 7300 7400
 Wire Wire Line
-	7400 7200 7600 7200
+	7300 7400 7300 7300
 Wire Wire Line
-	7600 7200 7600 7400
+	7050 7300 7250 7300
 Wire Wire Line
-	7600 7400 7300 7400
+	7250 7300 7250 7050
 Wire Wire Line
-	7400 7650 7050 7650
+	7250 7050 7400 7050
 Wire Wire Line
-	7050 7650 7050 7900
+	7050 7500 7300 7500
 Wire Wire Line
-	7050 7900 6600 7900
+	7300 7500 7300 7650
 Wire Wire Line
-	6600 7900 6600 6900
+	7300 7650 7400 7650
+$Comp
+L power:GND #PWR0102
+U 1 1 5D5CF7A1
+P 7050 7750
+F 0 "#PWR0102" H 7050 7500 50  0001 C CNN
+F 1 "GND" H 7055 7577 50  0000 C CNN
+F 2 "" H 7050 7750 50  0001 C CNN
+F 3 "" H 7050 7750 50  0001 C CNN
+	1    7050 7750
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	6600 6900 7300 6900
-Wire Wire Line
-	7300 6900 7300 7200
+	7050 7600 7050 7750
 $EndSCHEMATC
