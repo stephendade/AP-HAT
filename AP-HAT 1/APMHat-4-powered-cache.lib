@@ -584,11 +584,11 @@ X VOUT 5 300 100 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# Regulator_Switching_TPS54340DDA
+# Regulator_Switching_TPS54360DDA
 #
-DEF Regulator_Switching_TPS54340DDA U 0 10 Y Y 1 F N
+DEF Regulator_Switching_TPS54360DDA U 0 10 Y Y 1 F N
 F0 "U" -300 450 50 H V L CNN
-F1 "Regulator_Switching_TPS54340DDA" -300 350 50 H V L CNN
+F1 "Regulator_Switching_TPS54360DDA" -300 350 50 H V L CNN
 F2 "Package_SO:TI_SO-PowerPAD-8_ThermalVias" 50 -450 50 H I L CIN
 F3 "" 0 0 50 H I C CNN
 ALIAS TPS54340DDA

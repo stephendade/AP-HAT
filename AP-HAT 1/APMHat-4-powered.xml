@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>E:\Documents\Git\AP-HAT\AP-HAT 1\APMHat-4-powered.sch</source>
-    <date>11/08/2019 5:23:55 PM</date>
+    <date>17/08/2019 1:11:10 PM</date>
     <tool>Eeschema (5.1.2)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -284,14 +284,12 @@
     </comp>
     <comp ref="J6">
       <value>Power_Pad</value>
-      <footprint>Connector_Molex:Molex_CLIK-Mate_502494-0270_1x02-1MP_P2.00mm_Horizontal</footprint>
+      <footprint>Connector_Molex:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="MFR">Molex</field>
-        <field name="MPN">5024940270</field>
-        <field name="Max Temp (C)">105</field>
-        <field name="Min Temp (C)">-40</field>
-        <field name="SPN">WM15810CT-ND</field>
+        <field name="MPN">1053131102</field>
+        <field name="SPN">WM16893-ND</field>
         <field name="SPR">Digikey</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -518,54 +516,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CC84508</tstamp>
     </comp>
-    <comp ref="C5">
-      <value>1.0UF-50V</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">CC0805KKX7R8BB105</field>
-        <field name="Max Temp (C)">125</field>
-        <field name="Min Temp (C)">-55</field>
-        <field name="SKU">302010179</field>
-        <field name="SPN">311-1456-1-ND</field>
-        <field name="SPR">OPL</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CCC3197</tstamp>
-    </comp>
-    <comp ref="U2">
-      <value>MCP3008</value>
-      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
-      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21295d.pdf</datasheet>
-      <fields>
-        <field name="MFR">Microchip Technology</field>
-        <field name="MPN">MCP3008T-I/SL</field>
-        <field name="Max Temp (C)">85</field>
-        <field name="Min Temp (C)">-40</field>
-        <field name="SPN">MCP3008T-I/SLCT-ND</field>
-        <field name="SPR">Digikey</field>
-      </fields>
-      <libsource lib="Analog_ADC" part="MCP3008" description="A/D Converter, 10-Bit, 8-Channel, SPI Interface , 2.7V-5.5V"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CBF8ACC</tstamp>
-    </comp>
-    <comp ref="R17">
-      <value>100</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MFR">Panasonic</field>
-        <field name="MPN">ERJ-3EKF1000V</field>
-        <field name="Max Temp (C)">155</field>
-        <field name="Min Temp (C)">-55</field>
-        <field name="SPN">P100HCT-ND</field>
-        <field name="SPR">Digikey</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CC89861</tstamp>
-    </comp>
     <comp ref="D3">
       <value>30V</value>
       <footprint>Diode_SMD:D_SMA</footprint>
@@ -580,135 +530,6 @@
       <libsource lib="Diode" part="1.5KExxA" description="1500W unidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CD25123</tstamp>
-    </comp>
-    <comp ref="R15">
-      <value>100</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MFR">Panasonic</field>
-        <field name="MPN">ERJ-3EKF1000V</field>
-        <field name="Max Temp (C)">155</field>
-        <field name="Min Temp (C)">-55</field>
-        <field name="SPN">P100HCT-ND</field>
-        <field name="SPR">Digikey</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CE07849</tstamp>
-    </comp>
-    <comp ref="R16">
-      <value>100</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MFR">Panasonic</field>
-        <field name="MPN">ERJ-3EKF1000V</field>
-        <field name="Max Temp (C)">155</field>
-        <field name="Min Temp (C)">-55</field>
-        <field name="SPN">P100HCT-ND</field>
-        <field name="SPR">Digikey</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CE34DE9</tstamp>
-    </comp>
-    <comp ref="R7">
-      <value>100</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MFR">Panasonic</field>
-        <field name="MPN">ERJ-3EKF1000V</field>
-        <field name="Max Temp (C)">155</field>
-        <field name="Min Temp (C)">-55</field>
-        <field name="SPN">P100HCT-ND</field>
-        <field name="SPR">Digikey</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CE62A79</tstamp>
-    </comp>
-    <comp ref="R18">
-      <value>100</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MFR">Panasonic</field>
-        <field name="MPN">ERJ-3EKF1000V</field>
-        <field name="Max Temp (C)">155</field>
-        <field name="Min Temp (C)">-55</field>
-        <field name="SPN">P100HCT-ND</field>
-        <field name="SPR">Digikey</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CECF998</tstamp>
-    </comp>
-    <comp ref="R19">
-      <value>100</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MFR">Panasonic</field>
-        <field name="MPN">ERJ-3EKF1000V</field>
-        <field name="Max Temp (C)">155</field>
-        <field name="Min Temp (C)">-55</field>
-        <field name="SPN">P100HCT-ND</field>
-        <field name="SPR">Digikey</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CECFAA7</tstamp>
-    </comp>
-    <comp ref="R8">
-      <value>1K</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <fields>
-        <field name="MFR">Susumu</field>
-        <field name="MPN">RR0510P-102-D</field>
-        <field name="Max Temp (C)">125</field>
-        <field name="Min Temp (C)">-55</field>
-        <field name="SPN">RR05P1.0KDCT-ND</field>
-        <field name="SPR">Digikey</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CFB7A30</tstamp>
-    </comp>
-    <comp ref="C2">
-      <value>100nF, 50V</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">CC0805KRX7R9BB104</field>
-        <field name="Max Temp (C)">125</field>
-        <field name="Min Temp (C)">-55</field>
-        <field name="SKU">302010165</field>
-        <field name="SPN">311-1140-1-ND</field>
-        <field name="SPR">Digikey</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CFC9070</tstamp>
-    </comp>
-    <comp ref="C1">
-      <value>100nF, 50V</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">CC0805KRX7R9BB104</field>
-        <field name="Max Temp (C)">125</field>
-        <field name="Min Temp (C)">-55</field>
-        <field name="SKU">302010165</field>
-        <field name="SPN">311-1140-1-ND</field>
-        <field name="SPR">Digikey</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CFC96D9</tstamp>
     </comp>
     <comp ref="R20">
       <value>300</value>
@@ -757,54 +578,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D1FA590</tstamp>
     </comp>
-    <comp ref="C17">
-      <value>1uF, 10V</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MFR">MuRata</field>
-        <field name="MPN">GRM21BR71A105KA01L</field>
-        <field name="Max Temp (C)">125</field>
-        <field name="Min Temp (C)">-55</field>
-        <field name="SPN">490-1695-1-ND</field>
-        <field name="SPR">Digikey</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5D2454C0</tstamp>
-    </comp>
-    <comp ref="C18">
-      <value>1uF, 10V</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MFR">MuRata</field>
-        <field name="MPN">GRM21BR71A105KA01L</field>
-        <field name="Max Temp (C)">125</field>
-        <field name="Min Temp (C)">-55</field>
-        <field name="SPN">490-1695-1-ND</field>
-        <field name="SPR">Digikey</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5D247E8E</tstamp>
-    </comp>
-    <comp ref="J7">
-      <value>Conn_01x04</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MFR">~</field>
-        <field name="MPN">~</field>
-        <field name="Max Temp (C)">~</field>
-        <field name="Min Temp (C)">~</field>
-        <field name="SPN">~</field>
-        <field name="SPR">~</field>
-      </fields>
-      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5D5108E7</tstamp>
-    </comp>
     <comp ref="U7">
       <value>AP2127K-3.3</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
@@ -821,51 +594,18 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D50E5B2</tstamp>
     </comp>
-    <comp ref="C15">
-      <value>1uF, 10V</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MFR">MuRata</field>
-        <field name="MPN">GRM21BR71A105KA01L</field>
-        <field name="Max Temp (C)">125</field>
-        <field name="Min Temp (C)">-55</field>
-        <field name="SPN">490-1695-1-ND</field>
-        <field name="SPR">Digikey</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5D5410BC</tstamp>
-    </comp>
-    <comp ref="C16">
-      <value>1uF, 10V</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MFR">MuRata</field>
-        <field name="MPN">GRM21BR71A105KA01L</field>
-        <field name="Max Temp (C)">125</field>
-        <field name="Min Temp (C)">-55</field>
-        <field name="SPN">490-1695-1-ND</field>
-        <field name="SPR">Digikey</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5D542401</tstamp>
-    </comp>
     <comp ref="U5">
-      <value>TPS54340DDAR</value>
+      <value>TPS54360DDAR</value>
       <footprint>Package_SO:TI_SO-PowerPAD-8_ThermalVias</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/tps54340.pdf</datasheet>
       <fields>
         <field name="MFR">TI</field>
-        <field name="MPN">TPS54340DDAR</field>
+        <field name="MPN">TPS54360DDAR</field>
         <field name="Max Temp (C)">150</field>
         <field name="Min Temp (C)">-40</field>
-        <field name="SPN">296-35072-2-ND</field>
+        <field name="SPN">296-37676-1-ND</field>
         <field name="SPR">Digikey</field>
       </fields>
-      <libsource lib="Regulator_Switching" part="TPS54340DDA" description="3.5A, Step Down DC-DC Converter with Eco-mode, 4.5-42V Input Voltage, PowerSO-8"/>
+      <libsource lib="Regulator_Switching" part="TPS54360DDA" description="3.5A, Step Down DC-DC Converter with Eco-mode, 4.5-60V Input Voltage, PowerSO-8"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D512FAA</tstamp>
     </comp>
@@ -967,14 +707,14 @@
     </comp>
     <comp ref="R21">
       <value>11.8K</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="MFR">Vishay Dale</field>
-        <field name="MPN">CRCW040211K8FKED</field>
+        <field name="MPN">CRCW080511K8FKEA</field>
         <field name="Max Temp (C)">155</field>
         <field name="Min Temp (C)">-55</field>
-        <field name="SPN">541-11.8KLCT-ND</field>
+        <field name="SPN">541-11.8KCCT-ND</field>
         <field name="SPR">Digikey</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -982,15 +722,15 @@
       <tstamp>5D694B4D</tstamp>
     </comp>
     <comp ref="C11">
-      <value>24pF, 50V</value>
+      <value>10pF, 50V</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="MFR">Samsung Electro-Mechanics</field>
-        <field name="MPN">CL10C250JB8NNNC</field>
+        <field name="MPN">CL10C100JB8NNNC</field>
         <field name="Max Temp (C)">125</field>
         <field name="Min Temp (C)">-55</field>
-        <field name="SPN">1276-2244-1-ND</field>
+        <field name="SPN">1276-1027-1-ND</field>
         <field name="SPR">Digikey</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -998,15 +738,15 @@
       <tstamp>5D6B2A2D</tstamp>
     </comp>
     <comp ref="R13">
-      <value>27K</value>
+      <value>30K</value>
       <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="MFR">Yageo</field>
-        <field name="MPN">RC1206FR-0727KL</field>
+        <field name="MPN">RC1206FR-0730KL</field>
         <field name="Max Temp (C)">155</field>
         <field name="Min Temp (C)">-55</field>
-        <field name="SPN">311-27.0KFRCT-ND</field>
+        <field name="SPN">311-30.0KFRCT-ND</field>
         <field name="SPR">Digikey</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -1014,15 +754,15 @@
       <tstamp>5D6B373D</tstamp>
     </comp>
     <comp ref="C13">
-      <value>1000pF, 50V</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <value>3.3nF, 50V</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="MFR">Murata Electronics North America</field>
-        <field name="MPN">GRM1885C1H102JA01D</field>
+        <field name="MPN">GRM155R71H332KA01D</field>
         <field name="Max Temp (C)">125</field>
         <field name="Min Temp (C)">-55</field>
-        <field name="SPN">490-1451-1-ND</field>
+        <field name="SPN">490-3248-1-ND</field>
         <field name="SPR">Digikey</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -1045,7 +785,71 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D6E2C15</tstamp>
     </comp>
-    <comp ref="C9">
+    <comp ref="C16">
+      <value>1.0UF-50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">CC0805KKX7R8BB105</field>
+        <field name="Max Temp (C)">125</field>
+        <field name="Min Temp (C)">-55</field>
+        <field name="SKU">302010179</field>
+        <field name="SPN">311-1456-1-ND</field>
+        <field name="SPR">OPL</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D52438D</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>1.0UF-50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">CC0805KKX7R8BB105</field>
+        <field name="Max Temp (C)">125</field>
+        <field name="Min Temp (C)">-55</field>
+        <field name="SKU">302010179</field>
+        <field name="SPN">311-1456-1-ND</field>
+        <field name="SPR">OPL</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5273DC</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>1.0UF-50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">CC0805KKX7R8BB105</field>
+        <field name="Max Temp (C)">125</field>
+        <field name="Min Temp (C)">-55</field>
+        <field name="SKU">302010179</field>
+        <field name="SPN">311-1456-1-ND</field>
+        <field name="SPR">OPL</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D52882F</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>2.2UF-25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">CC0805KKX7R8BB225</field>
+        <field name="Max Temp (C)">125</field>
+        <field name="Min Temp (C)">-55</field>
+        <field name="SKU">302010148</field>
+        <field name="SPN">311-1884-1-ND</field>
+        <field name="SPR">OPL</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D52D06D</tstamp>
+    </comp>
+    <comp ref="C1">
       <value>10uF, 50V</value>
       <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
       <datasheet>~</datasheet>
@@ -1059,7 +863,118 @@
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5D8887F9</tstamp>
+      <tstamp>5D58660F</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x04</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">~</field>
+        <field name="MPN">~</field>
+        <field name="Max Temp (C)">~</field>
+        <field name="Min Temp (C)">~</field>
+        <field name="SPN">~</field>
+        <field name="SPR">~</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5108E7</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MFR">Susumu</field>
+        <field name="MPN">RR0510P-102-D</field>
+        <field name="Max Temp (C)">125</field>
+        <field name="Min Temp (C)">-55</field>
+        <field name="SPN">RR05P1.0KDCT-ND</field>
+        <field name="SPR">Digikey</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFB7A30</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-3EKF1000V</field>
+        <field name="Max Temp (C)">155</field>
+        <field name="Min Temp (C)">-55</field>
+        <field name="SPN">P100HCT-ND</field>
+        <field name="SPR">Digikey</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE62A79</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-3EKF1000V</field>
+        <field name="Max Temp (C)">155</field>
+        <field name="Min Temp (C)">-55</field>
+        <field name="SPN">P100HCT-ND</field>
+        <field name="SPR">Digikey</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE34DE9</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-3EKF1000V</field>
+        <field name="Max Temp (C)">155</field>
+        <field name="Min Temp (C)">-55</field>
+        <field name="SPN">P100HCT-ND</field>
+        <field name="SPR">Digikey</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE07849</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MCP3008</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21295d.pdf</datasheet>
+      <fields>
+        <field name="MFR">Microchip Technology</field>
+        <field name="MPN">MCP3008T-I/SL</field>
+        <field name="Max Temp (C)">85</field>
+        <field name="Min Temp (C)">-40</field>
+        <field name="SPN">MCP3008T-I/SLCT-ND</field>
+        <field name="SPR">Digikey</field>
+      </fields>
+      <libsource lib="Analog_ADC" part="MCP3008" description="A/D Converter, 10-Bit, 8-Channel, SPI Interface , 2.7V-5.5V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBF8ACC</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1.0UF-50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">CC0805KKX7R8BB105</field>
+        <field name="Max Temp (C)">125</field>
+        <field name="Min Temp (C)">-55</field>
+        <field name="SKU">302010179</field>
+        <field name="SPN">311-1456-1-ND</field>
+        <field name="SPR">OPL</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCC3197</tstamp>
     </comp>
   </components>
   <libparts>
@@ -1656,431 +1571,415 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(R7-Pad1)">
-      <node ref="U2" pin="2"/>
-      <node ref="R8" pin="2"/>
-      <node ref="R7" pin="1"/>
-    </net>
-    <net code="2" name="Net-(U2-Pad3)">
-      <node ref="U2" pin="3"/>
-    </net>
-    <net code="3" name="Net-(U2-Pad7)">
-      <node ref="U2" pin="7"/>
-    </net>
-    <net code="4" name="Net-(U2-Pad8)">
-      <node ref="U2" pin="8"/>
-    </net>
-    <net code="5" name="Net-(R17-Pad1)">
-      <node ref="R17" pin="1"/>
-      <node ref="U2" pin="6"/>
-    </net>
-    <net code="6" name="GND">
-      <node ref="D4" pin="2"/>
-      <node ref="J1" pin="14"/>
-      <node ref="J1" pin="20"/>
-      <node ref="J1" pin="9"/>
-      <node ref="R21" pin="1"/>
-      <node ref="J1" pin="25"/>
-      <node ref="C8" pin="2"/>
-      <node ref="J1" pin="6"/>
-      <node ref="J1" pin="34"/>
-      <node ref="J1" pin="30"/>
-      <node ref="J1" pin="39"/>
-      <node ref="C7" pin="2"/>
-      <node ref="C6" pin="2"/>
-      <node ref="U5" pin="7"/>
-      <node ref="U5" pin="9"/>
-      <node ref="U3" pin="22"/>
-      <node ref="J3" pin="1"/>
-      <node ref="R5" pin="1"/>
-      <node ref="R4" pin="1"/>
-      <node ref="J2" pin="2"/>
-      <node ref="U6" pin="3"/>
-      <node ref="C15" pin="1"/>
-      <node ref="C18" pin="1"/>
-      <node ref="J7" pin="1"/>
-      <node ref="U7" pin="2"/>
-      <node ref="D2" pin="1"/>
-      <node ref="U8" pin="2"/>
-      <node ref="C17" pin="1"/>
-      <node ref="C16" pin="1"/>
-      <node ref="C9" pin="2"/>
-      <node ref="R12" pin="2"/>
-      <node ref="C14" pin="2"/>
-      <node ref="C11" pin="2"/>
-      <node ref="C13" pin="2"/>
-      <node ref="SW1" pin="COM"/>
-      <node ref="U3" pin="9"/>
-      <node ref="U3" pin="14"/>
-      <node ref="C5" pin="1"/>
-      <node ref="J4" pin="6"/>
-      <node ref="C1" pin="1"/>
-      <node ref="C2" pin="1"/>
-      <node ref="R15" pin="2"/>
-      <node ref="J6" pin="2"/>
-      <node ref="R7" pin="2"/>
-      <node ref="D3" pin="2"/>
-      <node ref="U4" pin="2"/>
-      <node ref="J5" pin="1"/>
+    <net code="1" name="GND">
+      <node ref="U1" pin="2"/>
       <node ref="C3" pin="2"/>
       <node ref="C4" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="J4" pin="6"/>
+      <node ref="U6" pin="3"/>
       <node ref="U2" pin="9"/>
       <node ref="U2" pin="14"/>
-      <node ref="U1" pin="4"/>
-      <node ref="U1" pin="1"/>
-      <node ref="U1" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="J7" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R15" pin="2"/>
       <node ref="U1" pin="3"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="R21" pin="1"/>
+      <node ref="J5" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="U3" pin="22"/>
+      <node ref="U8" pin="2"/>
+      <node ref="U3" pin="9"/>
+      <node ref="J6" pin="1"/>
+      <node ref="U7" pin="2"/>
+      <node ref="J1" pin="25"/>
+      <node ref="J1" pin="20"/>
+      <node ref="J1" pin="14"/>
+      <node ref="J1" pin="9"/>
+      <node ref="J1" pin="6"/>
+      <node ref="J1" pin="39"/>
+      <node ref="J1" pin="34"/>
+      <node ref="J1" pin="30"/>
+      <node ref="U3" pin="14"/>
+      <node ref="SW1" pin="COM"/>
+      <node ref="J3" pin="1"/>
+      <node ref="U5" pin="7"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U5" pin="9"/>
+      <node ref="R4" pin="1"/>
     </net>
-    <net code="7" name="/VIN_POST">
-      <node ref="R8" pin="1"/>
-      <node ref="D1" pin="1"/>
-      <node ref="C9" pin="1"/>
+    <net code="2" name="Net-(U8-Pad3)">
+      <node ref="U8" pin="3"/>
+    </net>
+    <net code="3" name="/SPI1_CS0">
+      <node ref="J1" pin="12"/>
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="4" name="/SPI1_MISO">
+      <node ref="U3" pin="12"/>
+      <node ref="J1" pin="35"/>
+    </net>
+    <net code="5" name="/SPI1_MOSI">
+      <node ref="J1" pin="38"/>
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="6" name="/SPI1_SCLK">
+      <node ref="J1" pin="40"/>
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="7" name="Net-(D2-Pad2)">
+      <node ref="R20" pin="1"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="8" name="/PER_5V">
+      <node ref="U8" pin="1"/>
+      <node ref="U7" pin="3"/>
+      <node ref="U7" pin="1"/>
+      <node ref="J5" pin="3"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C15" pin="1"/>
+    </net>
+    <net code="9" name="/VIN_POST">
+      <node ref="C1" pin="1"/>
       <node ref="C8" pin="1"/>
       <node ref="C6" pin="1"/>
+      <node ref="D1" pin="1"/>
       <node ref="U4" pin="1"/>
+      <node ref="R8" pin="1"/>
       <node ref="U5" pin="2"/>
     </net>
-    <net code="8" name="/P5V_HAT">
-      <node ref="U8" pin="4"/>
-      <node ref="U8" pin="5"/>
-      <node ref="C17" pin="2"/>
-      <node ref="J1" pin="4"/>
-      <node ref="Q1" pin="5"/>
-      <node ref="Q2" pin="2"/>
-      <node ref="J1" pin="2"/>
-      <node ref="R16" pin="2"/>
-    </net>
-    <net code="9" name="Net-(R15-Pad1)">
-      <node ref="R15" pin="1"/>
-      <node ref="R16" pin="1"/>
-      <node ref="U2" pin="1"/>
-    </net>
-    <net code="10" name="Net-(R19-Pad1)">
-      <node ref="U2" pin="5"/>
-      <node ref="R19" pin="1"/>
-    </net>
-    <net code="11" name="Net-(R18-Pad1)">
-      <node ref="U2" pin="4"/>
-      <node ref="R18" pin="1"/>
-    </net>
-    <net code="12" name="/ID_SC_EEPROM">
-      <node ref="R2" pin="1"/>
-      <node ref="U1" pin="6"/>
-      <node ref="J1" pin="28"/>
-    </net>
-    <net code="13" name="/IRQ">
-      <node ref="U3" pin="15"/>
-      <node ref="J1" pin="18"/>
-      <node ref="R9" pin="2"/>
-    </net>
-    <net code="14" name="/PER_3V3">
-      <node ref="U2" pin="15"/>
+    <net code="10" name="/PER_3V3">
       <node ref="J3" pin="3"/>
+      <node ref="C17" pin="1"/>
       <node ref="R6" pin="1"/>
-      <node ref="R2" pin="2"/>
-      <node ref="R1" pin="2"/>
-      <node ref="U7" pin="5"/>
       <node ref="U3" pin="8"/>
-      <node ref="R3" pin="1"/>
-      <node ref="U1" pin="8"/>
       <node ref="R9" pin="1"/>
       <node ref="C5" pin="2"/>
+      <node ref="U7" pin="5"/>
+      <node ref="U2" pin="15"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="8"/>
       <node ref="U2" pin="16"/>
-      <node ref="C16" pin="2"/>
     </net>
-    <net code="15" name="/ID_SD_EEPROM">
+    <net code="11" name="/P_ENABLE">
+      <node ref="U5" pin="3"/>
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="12" name="Net-(C12-Pad1)">
+      <node ref="U5" pin="1"/>
+      <node ref="C12" pin="1"/>
+    </net>
+    <net code="13" name="Net-(R12-Pad1)">
+      <node ref="R12" pin="1"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="14" name="Net-(U7-Pad4)">
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="15" name="/IRQ">
+      <node ref="R9" pin="2"/>
+      <node ref="J1" pin="18"/>
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="16" name="/ID_SC_EEPROM">
+      <node ref="R2" pin="1"/>
+      <node ref="J1" pin="28"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="17" name="/ID_SD_EEPROM">
       <node ref="R1" pin="1"/>
-      <node ref="J1" pin="27"/>
       <node ref="U1" pin="5"/>
+      <node ref="J1" pin="27"/>
     </net>
-    <net code="16" name="Net-(C4-Pad1)">
+    <net code="18" name="Net-(C3-Pad1)">
+      <node ref="U3" pin="6"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="19" name="Net-(C4-Pad1)">
       <node ref="Y1" pin="1"/>
       <node ref="U3" pin="7"/>
       <node ref="C4" pin="1"/>
     </net>
-    <net code="17" name="Net-(C3-Pad1)">
-      <node ref="Y1" pin="2"/>
-      <node ref="C3" pin="1"/>
-      <node ref="U3" pin="6"/>
+    <net code="20" name="/CS0">
+      <node ref="J1" pin="24"/>
+      <node ref="U2" pin="10"/>
     </net>
-    <net code="18" name="/SCLK">
+    <net code="21" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="22" name="Net-(J7-Pad2)">
+      <node ref="U2" pin="6"/>
+      <node ref="J7" pin="2"/>
+    </net>
+    <net code="23" name="Net-(J7-Pad3)">
+      <node ref="J7" pin="3"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="24" name="Net-(J7-Pad4)">
+      <node ref="J7" pin="4"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="25" name="Net-(R7-Pad1)">
+      <node ref="R8" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="26" name="Net-(R15-Pad1)">
+      <node ref="U2" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="27" name="/MOSI">
+      <node ref="U2" pin="11"/>
+      <node ref="J1" pin="19"/>
+    </net>
+    <net code="28" name="/P5V_HAT">
+      <node ref="J1" pin="4"/>
+      <node ref="Q1" pin="5"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="R16" pin="2"/>
+      <node ref="U8" pin="5"/>
+      <node ref="U8" pin="4"/>
+    </net>
+    <net code="29" name="/MISO">
+      <node ref="U2" pin="12"/>
+      <node ref="J1" pin="21"/>
+    </net>
+    <net code="30" name="/SCLK">
       <node ref="J1" pin="23"/>
       <node ref="U2" pin="13"/>
     </net>
-    <net code="19" name="/MOSI">
-      <node ref="J1" pin="19"/>
-      <node ref="U2" pin="11"/>
+    <net code="31" name="Net-(U2-Pad8)">
+      <node ref="U2" pin="8"/>
     </net>
-    <net code="20" name="/MISO">
-      <node ref="J1" pin="21"/>
-      <node ref="U2" pin="12"/>
+    <net code="32" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
     </net>
-    <net code="21" name="/CS0">
-      <node ref="U2" pin="10"/>
-      <node ref="J1" pin="24"/>
+    <net code="33" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
     </net>
-    <net code="22" name="Net-(J2-Pad1)">
-      <node ref="R3" pin="2"/>
-      <node ref="U1" pin="7"/>
-      <node ref="J2" pin="1"/>
-    </net>
-    <net code="23" name="Net-(D2-Pad2)">
-      <node ref="R20" pin="1"/>
-      <node ref="D2" pin="2"/>
-    </net>
-    <net code="24" name="Net-(C12-Pad1)">
-      <node ref="C12" pin="1"/>
-      <node ref="U5" pin="1"/>
-    </net>
-    <net code="25" name="/P5V">
-      <node ref="R20" pin="2"/>
-      <node ref="L1" pin="1"/>
-      <node ref="R14" pin="2"/>
-      <node ref="Q1" pin="6"/>
-      <node ref="C14" pin="1"/>
-      <node ref="Q2" pin="3"/>
-    </net>
-    <net code="26" name="Net-(C12-Pad2)">
-      <node ref="D4" pin="1"/>
-      <node ref="U5" pin="8"/>
-      <node ref="L1" pin="2"/>
-      <node ref="C12" pin="2"/>
-    </net>
-    <net code="27" name="/P_ENABLE">
-      <node ref="U5" pin="3"/>
-      <node ref="U6" pin="4"/>
-    </net>
-    <net code="28" name="Net-(R12-Pad1)">
-      <node ref="U5" pin="4"/>
-      <node ref="R12" pin="1"/>
-    </net>
-    <net code="29" name="Net-(C13-Pad1)">
+    <net code="34" name="Net-(C13-Pad1)">
       <node ref="R13" pin="1"/>
       <node ref="C13" pin="1"/>
     </net>
-    <net code="30" name="Net-(C11-Pad1)">
-      <node ref="U5" pin="6"/>
-      <node ref="R13" pin="2"/>
+    <net code="35" name="Net-(C11-Pad1)">
       <node ref="C11" pin="1"/>
+      <node ref="R13" pin="2"/>
+      <node ref="U5" pin="6"/>
     </net>
-    <net code="31" name="Net-(R14-Pad1)">
-      <node ref="R14" pin="1"/>
+    <net code="36" name="/P5V">
+      <node ref="Q1" pin="6"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="C14" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="R20" pin="2"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="37" name="Net-(C12-Pad2)">
+      <node ref="D4" pin="1"/>
+      <node ref="U5" pin="8"/>
+      <node ref="C12" pin="2"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="38" name="Net-(R14-Pad1)">
       <node ref="R21" pin="2"/>
       <node ref="U5" pin="5"/>
+      <node ref="R14" pin="1"/>
     </net>
-    <net code="32" name="/SPI1_MOSI">
-      <node ref="U3" pin="11"/>
-      <node ref="J1" pin="38"/>
+    <net code="39" name="/RXB">
+      <node ref="U3" pin="24"/>
+      <node ref="J5" pin="5"/>
     </net>
-    <net code="33" name="/SPI1_CS0">
-      <node ref="U3" pin="10"/>
-      <node ref="J1" pin="12"/>
-    </net>
-    <net code="34" name="/SPI1_MISO">
-      <node ref="U3" pin="12"/>
-      <node ref="J1" pin="35"/>
-    </net>
-    <net code="35" name="/SPI1_SCLK">
-      <node ref="U3" pin="13"/>
-      <node ref="J1" pin="40"/>
-    </net>
-    <net code="36" name="Net-(J7-Pad2)">
-      <node ref="R17" pin="2"/>
-      <node ref="J7" pin="2"/>
-    </net>
-    <net code="37" name="Net-(J7-Pad3)">
-      <node ref="R19" pin="2"/>
-      <node ref="J7" pin="3"/>
-    </net>
-    <net code="38" name="Net-(J7-Pad4)">
-      <node ref="J7" pin="4"/>
-      <node ref="R18" pin="2"/>
-    </net>
-    <net code="39" name="Net-(U8-Pad3)">
-      <node ref="U8" pin="3"/>
-    </net>
-    <net code="40" name="/PER_5V">
-      <node ref="U7" pin="3"/>
-      <node ref="C18" pin="2"/>
-      <node ref="U7" pin="1"/>
-      <node ref="J5" pin="3"/>
-      <node ref="U8" pin="1"/>
-      <node ref="C15" pin="2"/>
-    </net>
-    <net code="41" name="Net-(U7-Pad4)">
-      <node ref="U7" pin="4"/>
-    </net>
-    <net code="42" name="Net-(R10-Pad1)">
+    <net code="40" name="Net-(R10-Pad1)">
       <node ref="U6" pin="1"/>
       <node ref="R10" pin="1"/>
       <node ref="SW1" pin="A"/>
     </net>
-    <net code="43" name="Net-(Q1-Pad1)">
-      <node ref="R4" pin="2"/>
+    <net code="41" name="Net-(Q1-Pad1)">
       <node ref="Q1" pin="3"/>
-      <node ref="Q1" pin="2"/>
       <node ref="Q1" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="R4" pin="2"/>
     </net>
-    <net code="44" name="Net-(SW1-PadNC1)">
+    <net code="42" name="Net-(SW1-PadNC1)">
       <node ref="SW1" pin="NC1"/>
     </net>
-    <net code="45" name="Net-(SW1-PadNC2)">
+    <net code="43" name="Net-(SW1-PadNC2)">
       <node ref="SW1" pin="NC2"/>
     </net>
-    <net code="46" name="Net-(J1-Pad3)">
-      <node ref="J1" pin="3"/>
-    </net>
-    <net code="47" name="Net-(J1-Pad31)">
-      <node ref="J1" pin="31"/>
-    </net>
-    <net code="48" name="Net-(J1-Pad32)">
-      <node ref="J1" pin="32"/>
-    </net>
-    <net code="49" name="Net-(J1-Pad33)">
-      <node ref="J1" pin="33"/>
-    </net>
-    <net code="50" name="Net-(J1-Pad36)">
-      <node ref="J1" pin="36"/>
-    </net>
-    <net code="51" name="/PWR_OFF">
-      <node ref="U6" pin="2"/>
-      <node ref="R11" pin="1"/>
-      <node ref="C1" pin="2"/>
-      <node ref="J1" pin="37"/>
-    </net>
-    <net code="52" name="Net-(J1-Pad29)">
+    <net code="44" name="Net-(J1-Pad29)">
       <node ref="J1" pin="29"/>
     </net>
-    <net code="53" name="/PI_OFF">
+    <net code="45" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="46" name="Net-(J1-Pad31)">
+      <node ref="J1" pin="31"/>
+    </net>
+    <net code="47" name="Net-(J1-Pad32)">
+      <node ref="J1" pin="32"/>
+    </net>
+    <net code="48" name="Net-(J1-Pad33)">
+      <node ref="J1" pin="33"/>
+    </net>
+    <net code="49" name="Net-(J1-Pad36)">
+      <node ref="J1" pin="36"/>
+    </net>
+    <net code="50" name="/PWR_OFF">
+      <node ref="R11" pin="1"/>
+      <node ref="U6" pin="2"/>
+      <node ref="J1" pin="37"/>
+    </net>
+    <net code="51" name="/PI_OFF">
       <node ref="SW1" pin="B"/>
       <node ref="J1" pin="5"/>
-      <node ref="C2" pin="2"/>
     </net>
-    <net code="54" name="Net-(J1-Pad7)">
+    <net code="52" name="Net-(J1-Pad7)">
       <node ref="J1" pin="7"/>
     </net>
-    <net code="55" name="/TELE_TO_FC">
-      <node ref="J1" pin="8"/>
+    <net code="53" name="/TELE_TO_FC">
       <node ref="J4" pin="3"/>
+      <node ref="J1" pin="8"/>
     </net>
-    <net code="56" name="/TELE_TO_PI">
-      <node ref="J1" pin="10"/>
+    <net code="54" name="/TELE_TO_PI">
       <node ref="J4" pin="2"/>
+      <node ref="J1" pin="10"/>
     </net>
-    <net code="57" name="Net-(J1-Pad11)">
+    <net code="55" name="Net-(J1-Pad11)">
       <node ref="J1" pin="11"/>
     </net>
-    <net code="58" name="Net-(J1-Pad13)">
+    <net code="56" name="Net-(J1-Pad13)">
       <node ref="J1" pin="13"/>
     </net>
-    <net code="59" name="Net-(J1-Pad15)">
+    <net code="57" name="Net-(J1-Pad15)">
       <node ref="J1" pin="15"/>
     </net>
-    <net code="60" name="Net-(J1-Pad16)">
+    <net code="58" name="Net-(J1-Pad16)">
       <node ref="J1" pin="16"/>
     </net>
-    <net code="61" name="Net-(J1-Pad17)">
+    <net code="59" name="Net-(J1-Pad17)">
       <node ref="J1" pin="17"/>
     </net>
-    <net code="62" name="Net-(J1-Pad22)">
+    <net code="60" name="Net-(J1-Pad22)">
       <node ref="J1" pin="22"/>
     </net>
-    <net code="63" name="Net-(Q1-Pad4)">
+    <net code="61" name="Net-(Q1-Pad4)">
       <node ref="Q2" pin="1"/>
       <node ref="R5" pin="2"/>
       <node ref="Q1" pin="4"/>
     </net>
-    <net code="64" name="/TXA">
-      <node ref="J3" pin="4"/>
+    <net code="62" name="/TXA">
       <node ref="U3" pin="3"/>
+      <node ref="J3" pin="4"/>
     </net>
-    <net code="65" name="/RXA">
+    <net code="63" name="/RXA">
       <node ref="J3" pin="5"/>
       <node ref="U3" pin="4"/>
     </net>
-    <net code="66" name="/CTSA">
+    <net code="64" name="/CTSA">
       <node ref="U3" pin="2"/>
       <node ref="J3" pin="2"/>
     </net>
-    <net code="67" name="Net-(U3-Pad19)">
-      <node ref="U3" pin="19"/>
-    </net>
-    <net code="68" name="Net-(U3-Pad20)">
-      <node ref="U3" pin="20"/>
-    </net>
-    <net code="69" name="Net-(U3-Pad21)">
+    <net code="65" name="Net-(U3-Pad21)">
       <node ref="U3" pin="21"/>
     </net>
-    <net code="70" name="Net-(U3-Pad25)">
+    <net code="66" name="Net-(U3-Pad25)">
       <node ref="U3" pin="25"/>
     </net>
-    <net code="71" name="Net-(U3-Pad26)">
+    <net code="67" name="Net-(U3-Pad26)">
       <node ref="U3" pin="26"/>
     </net>
-    <net code="72" name="Net-(U3-Pad27)">
+    <net code="68" name="Net-(U3-Pad27)">
       <node ref="U3" pin="27"/>
     </net>
-    <net code="73" name="Net-(U3-Pad28)">
+    <net code="69" name="Net-(U3-Pad28)">
       <node ref="U3" pin="28"/>
     </net>
-    <net code="74" name="/RTSA">
+    <net code="70" name="/RTSA">
       <node ref="J3" pin="6"/>
       <node ref="U3" pin="1"/>
     </net>
-    <net code="75" name="/RTSB">
+    <net code="71" name="/RTSB">
       <node ref="J5" pin="6"/>
       <node ref="U3" pin="17"/>
     </net>
-    <net code="76" name="/RXB">
-      <node ref="U3" pin="24"/>
-      <node ref="J5" pin="5"/>
-    </net>
-    <net code="77" name="/TXB">
-      <node ref="U3" pin="23"/>
+    <net code="72" name="/TXB">
       <node ref="J5" pin="4"/>
+      <node ref="U3" pin="23"/>
     </net>
-    <net code="78" name="/CTSB">
-      <node ref="U3" pin="16"/>
+    <net code="73" name="/CTSB">
       <node ref="J5" pin="2"/>
+      <node ref="U3" pin="16"/>
     </net>
-    <net code="79" name="Net-(R6-Pad2)">
-      <node ref="R6" pin="2"/>
-      <node ref="U3" pin="5"/>
-    </net>
-    <net code="80" name="/CS1">
+    <net code="74" name="/CS1">
       <node ref="J1" pin="26"/>
     </net>
-    <net code="81" name="Net-(U3-Pad18)">
-      <node ref="U3" pin="18"/>
+    <net code="75" name="Net-(R6-Pad2)">
+      <node ref="U3" pin="5"/>
+      <node ref="R6" pin="2"/>
     </net>
-    <net code="82" name="/VIN_RAW">
-      <node ref="J6" pin="1"/>
-      <node ref="D3" pin="1"/>
+    <net code="76" name="Net-(U3-Pad20)">
+      <node ref="U3" pin="20"/>
+    </net>
+    <net code="77" name="/VIN_RAW">
       <node ref="D1" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="J6" pin="2"/>
     </net>
-    <net code="83" name="Net-(J4-Pad1)">
+    <net code="78" name="Net-(J4-Pad1)">
       <node ref="J4" pin="1"/>
     </net>
-    <net code="84" name="Net-(J4-Pad4)">
+    <net code="79" name="Net-(U3-Pad18)">
+      <node ref="U3" pin="18"/>
+    </net>
+    <net code="80" name="Net-(U3-Pad19)">
+      <node ref="U3" pin="19"/>
+    </net>
+    <net code="81" name="Net-(J4-Pad4)">
       <node ref="J4" pin="4"/>
     </net>
-    <net code="85" name="Net-(J4-Pad5)">
+    <net code="82" name="Net-(J4-Pad5)">
       <node ref="J4" pin="5"/>
     </net>
-    <net code="86" name="Net-(J1-Pad1)">
+    <net code="83" name="Net-(J1-Pad1)">
       <node ref="J1" pin="1"/>
     </net>
-    <net code="87" name="VCC">
+    <net code="84" name="VCC">
       <node ref="U4" pin="5"/>
-      <node ref="C7" pin="1"/>
+      <node ref="R11" pin="2"/>
       <node ref="R10" pin="2"/>
       <node ref="U6" pin="5"/>
-      <node ref="R11" pin="2"/>
+      <node ref="C7" pin="1"/>
     </net>
-    <net code="88" name="Net-(U4-Pad4)">
+    <net code="85" name="Net-(U4-Pad4)">
       <node ref="U4" pin="4"/>
     </net>
-    <net code="89" name="Net-(U4-Pad3)">
+    <net code="86" name="Net-(U4-Pad3)">
       <node ref="U4" pin="3"/>
     </net>
   </nets>
