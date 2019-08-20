@@ -20,7 +20,7 @@ U 1 1 5834BC4A
 P 5650 6000
 F 0 "H1" H 5500 6100 60  0000 C CNN
 F 1 "3mm_Mounting_Hole" H 5650 5850 60  0000 C CNN
-F 2 "project_footprints:NPTH_3mm_ID" H 5550 6000 60  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380" H 5550 6000 60  0001 C CNN
 F 3 "" H 5550 6000 60  0001 C CNN
 F 4 "~" H 0   0   50  0001 C CNN "MFR"
 F 5 "~" H 0   0   50  0001 C CNN "MPN"
@@ -37,7 +37,7 @@ U 1 1 5834BCDF
 P 6650 6000
 F 0 "H3" H 6500 6100 60  0000 C CNN
 F 1 "3mm_Mounting_Hole" H 6650 5850 60  0000 C CNN
-F 2 "project_footprints:NPTH_3mm_ID" H 6550 6000 60  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380" H 6550 6000 60  0001 C CNN
 F 3 "" H 6550 6000 60  0001 C CNN
 F 4 "~" H 0   0   50  0001 C CNN "MFR"
 F 5 "~" H 0   0   50  0001 C CNN "MPN"
@@ -49,29 +49,12 @@ F 9 "~" H 6650 6000 50  0001 C CNN "Min Temp (C)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H2
-U 1 1 5834BD62
-P 5650 6550
-F 0 "H2" H 5500 6650 60  0000 C CNN
-F 1 "3mm_Mounting_Hole" H 5650 6400 60  0000 C CNN
-F 2 "project_footprints:NPTH_3mm_ID" H 5550 6550 60  0001 C CNN
-F 3 "" H 5550 6550 60  0001 C CNN
-F 4 "~" H 0   0   50  0001 C CNN "MFR"
-F 5 "~" H 0   0   50  0001 C CNN "MPN"
-F 6 "~" H 0   0   50  0001 C CNN "SPN"
-F 7 "~" H 0   0   50  0001 C CNN "SPR"
-F 8 "~" H 5650 6550 50  0001 C CNN "Max Temp (C)"
-F 9 "~" H 5650 6550 50  0001 C CNN "Min Temp (C)"
-	1    5650 6550
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole H4
 U 1 1 5834BDED
 P 6700 6550
 F 0 "H4" H 6550 6650 60  0000 C CNN
 F 1 "3mm_Mounting_Hole" H 6700 6400 60  0000 C CNN
-F 2 "project_footprints:NPTH_3mm_ID" H 6600 6550 60  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380" H 6600 6550 60  0001 C CNN
 F 3 "" H 6600 6550 60  0001 C CNN
 F 4 "~" H 0   0   50  0001 C CNN "MFR"
 F 5 "~" H 0   0   50  0001 C CNN "MPN"
@@ -2208,6 +2191,23 @@ F 1 "GND" H 8905 6677 50  0000 C CNN
 F 2 "" H 8900 6850 50  0001 C CNN
 F 3 "" H 8900 6850 50  0001 C CNN
 	1    8900 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5834BD62
+P 5650 6550
+F 0 "H2" H 5500 6650 60  0000 C CNN
+F 1 "3mm_Mounting_Hole" H 5650 6400 60  0000 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380" H 5550 6550 60  0001 C CNN
+F 3 "" H 5550 6550 60  0001 C CNN
+F 4 "~" H 0   0   50  0001 C CNN "MFR"
+F 5 "~" H 0   0   50  0001 C CNN "MPN"
+F 6 "~" H 0   0   50  0001 C CNN "SPN"
+F 7 "~" H 0   0   50  0001 C CNN "SPR"
+F 8 "~" H 5650 6550 50  0001 C CNN "Max Temp (C)"
+F 9 "~" H 5650 6550 50  0001 C CNN "Min Temp (C)"
+	1    5650 6550
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
