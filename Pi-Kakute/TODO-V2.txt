@@ -5,5 +5,5 @@ To-change list based on V2:
 -Servo out pins move to fully inboard
 -Pi power switch labels need to be reversed
 -More the power switches fully inboard
--Remove Polulu pins
+-Remove Polulu pins  DONE
 -Don't use staking headers (it'll be the top board anyway, due to the extra height needed for the Kakute)

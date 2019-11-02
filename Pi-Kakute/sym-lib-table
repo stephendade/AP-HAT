@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name KakuteHAT_v2-rescue)(type Legacy)(uri ${KIPRJMOD}/KakuteHAT_v2-rescue.lib)(options "")(descr "")(disabled))
+  (lib (name PiBits)(type Legacy)(uri ${KIPRJMOD}/../Lib/PiBits.lib)(options "")(descr ""))
+  (lib (name Kakute)(type Legacy)(uri ${KIPRJMOD}/../Lib/Kakute.lib)(options "")(descr ""))
+  (lib (name TI_additional)(type Legacy)(uri ${KIPRJMOD}/../Lib/TI_additional.lib)(options "")(descr ""))
+)
