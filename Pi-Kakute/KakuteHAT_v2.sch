@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:KakuteHAT_v2-cache
+LIBS:PiConnectLite-cache
 EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
@@ -20,7 +21,7 @@ U 1 1 5834BC4A
 P 5650 6000
 F 0 "H2" H 5500 6100 60  0000 C CNN
 F 1 "3mm_Mounting_Hole" H 5650 5850 60  0000 C CNN
-F 2 "project_footprints:NPTH_3mm_ID" H 5550 6000 60  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380" H 5550 6000 60  0001 C CNN
 F 3 "" H 5550 6000 60  0001 C CNN
 F 4 "~" H 0   0   50  0001 C CNN "MFR"
 F 5 "~" H 0   0   50  0001 C CNN "MPN"
@@ -33,7 +34,7 @@ U 1 1 5834BCDF
 P 6650 6000
 F 0 "H4" H 6500 6100 60  0000 C CNN
 F 1 "3mm_Mounting_Hole" H 6650 5850 60  0000 C CNN
-F 2 "project_footprints:NPTH_3mm_ID" H 6550 6000 60  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380" H 6550 6000 60  0001 C CNN
 F 3 "" H 6550 6000 60  0001 C CNN
 F 4 "~" H 0   0   50  0001 C CNN "MFR"
 F 5 "~" H 0   0   50  0001 C CNN "MPN"
@@ -46,7 +47,7 @@ U 1 1 5834BD62
 P 5650 6550
 F 0 "H3" H 5500 6650 60  0000 C CNN
 F 1 "3mm_Mounting_Hole" H 5650 6400 60  0000 C CNN
-F 2 "project_footprints:NPTH_3mm_ID" H 5550 6550 60  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380" H 5550 6550 60  0001 C CNN
 F 3 "" H 5550 6550 60  0001 C CNN
 F 4 "~" H 0   0   50  0001 C CNN "MFR"
 F 5 "~" H 0   0   50  0001 C CNN "MPN"
@@ -59,7 +60,7 @@ U 1 1 5834BDED
 P 6700 6550
 F 0 "H5" H 6550 6650 60  0000 C CNN
 F 1 "3mm_Mounting_Hole" H 6700 6400 60  0000 C CNN
-F 2 "project_footprints:NPTH_3mm_ID" H 6600 6550 60  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380" H 6600 6550 60  0001 C CNN
 F 3 "" H 6600 6550 60  0001 C CNN
 F 4 "~" H 0   0   50  0001 C CNN "MFR"
 F 5 "~" H 0   0   50  0001 C CNN "MPN"
@@ -74,15 +75,15 @@ F 0 "J1" H 3000 3200 50  0000 C CNN
 F 1 "40HAT" H 2350 3200 50  0001 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 2650 3300 50  0001 C CNN
 F 3 "" H 1950 3100 50  0000 C CNN
-F 4 "Adafruit" H 50  850 50  0001 C CNN "MFR"
-F 5 "1979" H 50  850 50  0001 C CNN "MPN"
-F 6 "1528-1783-ND" H 50  850 50  0001 C CNN "SPN"
+F 4 "Sullins Connector Solutions" H 50  850 50  0001 C CNN "MFR"
+F 5 "PPPC202LFBN-RC" H 50  850 50  0001 C CNN "MPN"
+F 6 "S7123-ND" H 50  850 50  0001 C CNN "SPN"
 F 7 "Digikey" H 50  850 50  0001 C CNN "SPR"
 	1    2650 3100
 	1    0    0    -1  
 $EndComp
 Text Label 3150 7400 2    60   ~ 0
-P3V3_HAT
+LDO3V3
 Text Label 7150 2400 2    60   ~ 0
 P5V_HAT
 Wire Wire Line
@@ -718,12 +719,6 @@ Text Notes 10000 950  0    50   ~ 0
 10A total = 2.5(Pi) + 6 (motors) + 1.5 (Kakute)
 Text Notes 8950 2500 0    118  ~ 24
 Power Input and Current Measure
-Text Notes 1050 8650 0    118  ~ 24
-Changes from V1.0
-Text Notes 1050 8850 0    50   ~ 0
-EEPROM using pin17 for power
-Text Notes 1050 8950 0    50   ~ 0
-Corrected SDA/SCL for EEPROM
 Wire Wire Line
 	2750 1800 2850 1800
 Wire Wire Line
@@ -773,8 +768,6 @@ Wire Wire Line
 	1850 2200 1300 2200
 Wire Wire Line
 	1850 2300 1300 2300
-Text Notes 1050 9050 0    50   ~ 0
-Removed XT60 Connector
 $Comp
 L Device:C C2
 U 1 1 5C476D9B
@@ -809,54 +802,23 @@ F 8 "Yageo" H 0   0   50  0001 C CNN "MFR"
 $EndComp
 Wire Wire Line
 	1350 4000 1350 4250
-Text Notes 1050 9150 0    50   ~ 0
-Added capacitors on Pi GPIO 
 Wire Wire Line
 	10300 6000 10050 6000
 Text Label 10050 6000 0    50   ~ 0
 VIN_RAW
-Text Notes 1050 9250 0    50   ~ 0
-Added power switch for Kakute
-Text Notes 1050 9350 0    50   ~ 0
-Correct power GPIOs for Pi
 Connection ~ 2700 7400
 Wire Wire Line
 	4400 2900 4400 3150
-Text Notes 1050 9450 0    50   ~ 0
-Correct RC Port part (hor port)
 Wire Wire Line
 	11750 6850 12250 6850
-Text Notes 1050 9550 0    50   ~ 0
-Using Pin headers for Polulu and Kakute
-$Comp
-L Connector_Generic:Conn_01x04 J2
-U 1 1 5C4F52AC
-P 2650 5800
-F 0 "J2" H 2730 5792 50  0000 L CNN
-F 1 "ID_EEPROM" H 2730 5701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2650 5800 50  0001 C CNN
-F 3 "~" H 2650 5800 50  0001 C CNN
-F 4 "~" H 0   0   50  0001 C CNN "MFR"
-F 5 "~" H 0   0   50  0001 C CNN "MPN"
-	1    2650 5800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	2450 5700 2050 5700
-Wire Wire Line
-	2450 5800 2050 5800
-Wire Wire Line
-	2450 5900 2050 5900
-Wire Wire Line
-	2450 6000 2050 6000
-Text Label 2050 5700 0    50   ~ 0
-P3V3_HAT
-Text Label 2450 5800 2    60   ~ 0
+	2450 5650 2050 5650
+Text Label 2050 5650 0    50   ~ 0
+LDO3V3
+Text Label 3750 5850 2    60   ~ 0
 ID_SD_EEPROM_pu
-Text Label 2450 5900 2    60   ~ 0
+Text Label 3750 5950 2    60   ~ 0
 ID_SC_EEPROM_pu
-Text Notes 1050 9650 0    50   ~ 0
-Replated EEPROM with Dev header
 $Comp
 L Connector_Generic:Conn_01x02 J8
 U 1 1 5C5F9B3D
@@ -1071,12 +1033,12 @@ $EndComp
 $Comp
 L power:GND #PWR02
 U 1 1 5C6347D7
-P 2050 6000
-F 0 "#PWR02" H 2050 5750 50  0001 C CNN
-F 1 "GND" H 2055 5827 50  0000 C CNN
-F 2 "" H 2050 6000 50  0001 C CNN
-F 3 "" H 2050 6000 50  0001 C CNN
-	1    2050 6000
+P 2450 6250
+F 0 "#PWR02" H 2450 6000 50  0001 C CNN
+F 1 "GND" H 2455 6077 50  0000 C CNN
+F 2 "" H 2450 6250 50  0001 C CNN
+F 3 "" H 2450 6250 50  0001 C CNN
+	1    2450 6250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1090,10 +1052,6 @@ F 3 "" H 3150 4400 50  0001 C CNN
 	1    3150 4400
 	1    0    0    -1  
 $EndComp
-Text Notes 1050 9750 0    50   ~ 0
-Using GND symbol instead of net label
-Text Notes 1050 9800 0    50   ~ 0
-Power input via solder pads
 Wire Wire Line
 	8150 7800 9000 7800
 Wire Wire Line
@@ -1124,8 +1082,6 @@ Wire Wire Line
 	11900 3050 11550 3050
 Text Label 10450 2900 0    50   ~ 0
 VIN_RAW
-Text Notes 1050 9900 0    50   ~ 0
-Removed current measurement
 $Comp
 L Regulator_Switching:TPS54340DDA U4
 U 1 1 5C6304C1
@@ -1620,4 +1576,85 @@ F 3 "" H 9600 6450 50  0001 C CNN
 	1    9600 6450
 	0    1    1    0   
 $EndComp
+$Comp
+L Memory_EEPROM:CAT24C256 U6
+U 1 1 5DC3D434
+P 2450 5950
+F 0 "U6" H 2450 6431 50  0000 C CNN
+F 1 "CAT24C32" H 2450 6340 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2450 5950 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/CAT24C128-D.PDF" H 2450 5950 50  0001 C CNN
+F 4 "ON Semiconductor" H 2450 5950 50  0001 C CNN "MFR"
+F 5 "CAT24C32WI-GT3 " H 2450 5950 50  0001 C CNN "MPN"
+F 6 "CAT24C32WI-GT3CT-ND" H 2450 5950 50  0001 C CNN "SPN"
+F 7 "Digikey" H 2450 5950 50  0001 C CNN "SPR"
+	1    2450 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 5850 2050 5950
+Wire Wire Line
+	2050 5950 2050 6050
+Connection ~ 2050 5950
+Wire Wire Line
+	2050 6050 2050 6250
+Wire Wire Line
+	2050 6250 2450 6250
+Connection ~ 2050 6050
+Connection ~ 2450 6250
+Wire Wire Line
+	2850 6050 3300 6050
+Wire Wire Line
+	2850 6050 2850 6150
+Connection ~ 2850 6050
+Wire Wire Line
+	2850 5850 3750 5850
+Wire Wire Line
+	2850 5950 3750 5950
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5DCB1EC3
+P 3500 6050
+F 0 "J2" H 3580 6042 50  0000 L CNN
+F 1 "Conn_01x02" H 3580 5951 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3500 6050 50  0001 C CNN
+F 3 "~" H 3500 6050 50  0001 C CNN
+F 4 "~" H 3500 6050 50  0001 C CNN "MFR"
+F 5 "~" H 3500 6050 50  0001 C CNN "MPN"
+F 6 "~" H 3500 6050 50  0001 C CNN "SPN"
+F 7 "~" H 3500 6050 50  0001 C CNN "SPR"
+	1    3500 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5DCB3377
+P 3300 6150
+F 0 "#PWR0102" H 3300 5900 50  0001 C CNN
+F 1 "GND" H 3305 5977 50  0000 C CNN
+F 2 "" H 3300 6150 50  0001 C CNN
+F 3 "" H 3300 6150 50  0001 C CNN
+	1    3300 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 5DCB3A5C
+P 2850 6300
+F 0 "R11" H 2920 6346 50  0000 L CNN
+F 1 "10K" H 2920 6255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2780 6300 50  0001 C CNN
+F 3 "~" H 2850 6300 50  0001 C CNN
+F 4 "Yageo" H 2850 6300 50  0001 C CNN "MFR"
+F 5 "RC0603JR-0710KL" H 2850 6300 50  0001 C CNN "MPN"
+F 6 "301010293" H 2850 6300 50  0001 C CNN "SKU"
+F 7 "311-10KGRCT-ND" H 2850 6300 50  0001 C CNN "SPN"
+F 8 "OPL" H 2850 6300 50  0001 C CNN "SPR"
+	1    2850 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 6450 3450 6450
+Text Label 3050 6450 0    50   ~ 0
+LDO3V3
 $EndSCHEMATC
