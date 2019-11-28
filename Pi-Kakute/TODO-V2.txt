@@ -1,9 +1,9 @@
 To-change list based on V2:
 -D2,D3 pads are reversed
 -C13 wrong size. Likely due to buying incorrect part
--Camera slot need moving towards Pi GPIO (inwards) by 1.5mm
--Servo out pins move to fully inboard
--Pi power switch labels need to be reversed
--More the power switches fully inboard
+-Camera slot need moving towards Pi GPIO (inwards) by 1.5mm  DONE
+-Servo out pins move to fully inboard DONE
+-Pi power switch labels need to be reversed DONE
+-More the power switches fully inboard DONE
 -Remove Polulu pins  DONE
--Don't use staking headers (it'll be the top board anyway, due to the extra height needed for the Kakute)
+-Don't use staking headers (it'll be the top board anyway, due to the extra height needed for the Kakute)  DONE
