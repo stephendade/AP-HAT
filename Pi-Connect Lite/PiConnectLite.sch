@@ -623,10 +623,6 @@ TELE_TO_FC
 Text Label 5200 8950 0    50   ~ 0
 TELE_TO_PI
 Wire Wire Line
-	2700 6000 3550 6000
-Wire Wire Line
-	2700 5900 3550 5900
-Wire Wire Line
 	1900 6100 1900 6300
 Connection ~ 1900 6100
 Wire Wire Line
@@ -693,37 +689,7 @@ F 10 "-55" H 2700 6250 50  0001 C CNN "Min Temp (C)"
 $EndComp
 Text Label 2900 6400 0    50   ~ 0
 LDO_3V3
-Wire Wire Line
-	2700 6100 3000 6100
 Connection ~ 2700 6100
-$Comp
-L Connector_Generic:Conn_01x02 J2
-U 1 1 5CC84508
-P 3200 6100
-F 0 "J2" H 3280 6092 50  0000 L CNN
-F 1 "Conn_01x02" H 3280 6001 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3200 6100 50  0001 C CNN
-F 3 "~" H 3200 6100 50  0001 C CNN
-F 4 "~" H 0   0   50  0001 C CNN "MFR"
-F 5 "~" H 0   0   50  0001 C CNN "MPN"
-F 6 "~" H 0   0   50  0001 C CNN "SPN"
-F 7 "~" H 0   0   50  0001 C CNN "SPR"
-F 8 "~" H 3200 6100 50  0001 C CNN "Max Temp (C)"
-F 9 "~" H 3200 6100 50  0001 C CNN "Min Temp (C)"
-	1    3200 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR03
-U 1 1 5CC845C8
-P 3000 6200
-F 0 "#PWR03" H 3000 5950 50  0001 C CNN
-F 1 "GND" H 3005 6027 50  0000 C CNN
-F 2 "" H 3000 6200 50  0001 C CNN
-F 3 "" H 3000 6200 50  0001 C CNN
-	1    3000 6200
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2700 6400 3250 6400
 $Comp
@@ -1392,4 +1358,38 @@ Wire Wire Line
 	13050 2900 14150 2900
 Wire Wire Line
 	14150 2900 14150 3200
+Wire Wire Line
+	2700 5900 3550 5900
+Wire Wire Line
+	2700 6000 3550 6000
+Wire Wire Line
+	2700 6100 3000 6100
+$Comp
+L power:GND #PWR03
+U 1 1 5CC845C8
+P 3000 6200
+F 0 "#PWR03" H 3000 5950 50  0001 C CNN
+F 1 "GND" H 3005 6027 50  0000 C CNN
+F 2 "" H 3000 6200 50  0001 C CNN
+F 3 "" H 3000 6200 50  0001 C CNN
+	1    3000 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5CC84508
+P 3200 6100
+F 0 "J2" H 3280 6092 50  0000 L CNN
+F 1 "Conn_01x02" H 3280 6001 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3200 6100 50  0001 C CNN
+F 3 "~" H 3200 6100 50  0001 C CNN
+F 4 "~" H 0   0   50  0001 C CNN "MFR"
+F 5 "~" H 0   0   50  0001 C CNN "MPN"
+F 6 "~" H 0   0   50  0001 C CNN "SPN"
+F 7 "~" H 0   0   50  0001 C CNN "SPR"
+F 8 "~" H 3200 6100 50  0001 C CNN "Max Temp (C)"
+F 9 "~" H 3200 6100 50  0001 C CNN "Min Temp (C)"
+	1    3200 6100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
