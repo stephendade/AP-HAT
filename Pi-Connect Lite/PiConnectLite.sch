@@ -1375,7 +1375,7 @@ U 1 1 5CC84508
 P 3200 6100
 F 0 "J2" H 3280 6092 50  0000 L CNN
 F 1 "Conn_01x02" H 3280 6001 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 3200 6100 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 3200 6100 50  0001 C CNN
 F 3 "~" H 3200 6100 50  0001 C CNN
 F 4 "~" H 0   0   50  0001 C CNN "MFR"
 F 5 "~" H 0   0   50  0001 C CNN "MPN"
