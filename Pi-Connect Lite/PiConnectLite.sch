@@ -1604,4 +1604,42 @@ Wire Wire Line
 Wire Wire Line
 	4150 2600 4400 2600
 Connection ~ 4150 2600
+$Comp
+L Connector_Generic:Conn_01x02 J5
+U 1 1 5ED2846C
+P 8700 5850
+F 0 "J5" H 8780 5842 50  0000 L CNN
+F 1 "Conn_01x02" H 8780 5751 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8700 5850 50  0001 C CNN
+F 3 "~" H 8700 5850 50  0001 C CNN
+F 4 "~" H 5500 -250 50  0001 C CNN "MFR"
+F 5 "~" H 5500 -250 50  0001 C CNN "MPN"
+F 6 "~" H 5500 -250 50  0001 C CNN "SPN"
+F 7 "~" H 5500 -250 50  0001 C CNN "SPR"
+F 8 "~" H 8700 5850 50  0001 C CNN "Max Temp (C)"
+F 9 "~" H 8700 5850 50  0001 C CNN "Min Temp (C)"
+	1    8700 5850
+	1    0    0    -1  
+$EndComp
+Text Notes 8050 5650 0    118  ~ 24
+Extra 5V output
+Wire Wire Line
+	8500 5850 8250 5850
+Wire Wire Line
+	8500 5950 8400 5950
+Wire Wire Line
+	8400 5950 8400 6100
+$Comp
+L power:GND #PWR0109
+U 1 1 5ED3A5D4
+P 8400 6100
+F 0 "#PWR0109" H 8400 5850 50  0001 C CNN
+F 1 "GND" H 8405 5927 50  0000 C CNN
+F 2 "" H 8400 6100 50  0001 C CNN
+F 3 "" H 8400 6100 50  0001 C CNN
+	1    8400 6100
+	1    0    0    -1  
+$EndComp
+Text Label 8250 5850 0    50   ~ 0
+P5V
 $EndSCHEMATC
