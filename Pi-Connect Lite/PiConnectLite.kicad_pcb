@@ -2318,7 +2318,7 @@
     (arrow2a (pts (xy 78.5 58) (xy 79.626504 58.586421)))
     (arrow2b (pts (xy 78.5 58) (xy 79.626504 57.413579)))
   )
-  (gr_text "Pi-Connect Lite\nV1.2" (at 141.1 75.5 90) (layer F.SilkS)
+  (gr_text "Pi-Connect Lite\nV1.3" (at 141.1 75.5 90) (layer F.SilkS)
     (effects (font (size 1.2 1.2) (thickness 0.3)))
   )
   (gr_line (start 117.5 91) (end 140.5 91) (layer Edge.Cuts) (width 0.1) (tstamp 5C2C6664))
