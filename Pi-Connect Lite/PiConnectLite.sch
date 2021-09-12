@@ -85,8 +85,6 @@ Text Label 3150 7400 2    60   ~ 0
 LDO_3V3
 Text Label 7150 2400 2    60   ~ 0
 P5V_HAT
-Wire Wire Line
-	6400 2400 6550 2400
 Text Label 5300 2400 0    60   ~ 0
 P5V
 Wire Wire Line
@@ -95,23 +93,6 @@ Text Notes 5150 1750 0    118  ~ 24
 5V Powered HAT Protection
 Text Notes 4900 2050 0    60   ~ 0
 This is the recommended 5V rail protection for \na HAT with power going to the Pi.\nSee https://github.com/raspberrypi/hats/blob/master/designguide.md#back-powering-the-pi-via-the-j8-gpio-header
-$Comp
-L PiBits:DMG2305UX Q2
-U 1 1 58E14EB1
-P 6150 2400
-F 0 "Q2" V 6300 2550 50  0000 R CNN
-F 1 "DMG2305UX" V 6300 2350 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 6350 2500 50  0001 C CNN
-F 3 "" H 6150 2400 50  0000 C CNN
-F 4 "DiodesZetex" H 0   0   50  0001 C CNN "MFR"
-F 5 "DMG2305UX-7" H 0   0   50  0001 C CNN "MPN"
-F 6 "DMG2305UX-7DICT-ND" H 0   0   50  0001 C CNN "SPN"
-F 7 "OPL" H 0   0   50  0001 C CNN "SPR"
-F 8 "150" H 6150 2400 50  0001 C CNN "Max Temp (C)"
-F 9 "-55" H 6150 2400 50  0001 C CNN "Min Temp (C)"
-	1    6150 2400
-	0    -1   -1   0   
-$EndComp
 $Comp
 L PiBits:DMMT5401 Q1
 U 1 1 58E1538B
@@ -210,8 +191,6 @@ Wire Wire Line
 	6550 3800 6550 3750
 Wire Wire Line
 	6550 3200 6550 3300
-Wire Wire Line
-	6150 2650 6150 3300
 Wire Wire Line
 	6150 3300 6550 3300
 Connection ~ 6550 3300
@@ -321,8 +300,6 @@ Wire Wire Line
 	5750 3350 5750 3450
 Wire Wire Line
 	6050 3350 6250 3350
-Wire Wire Line
-	5750 2400 5900 2400
 Wire Wire Line
 	6550 2400 7150 2400
 Wire Wire Line
@@ -1685,4 +1662,27 @@ Wire Wire Line
 	3600 2400 3600 2600
 Wire Wire Line
 	3600 2600 3450 2600
+Wire Wire Line
+	6350 2400 6550 2400
+Wire Wire Line
+	5750 2400 5950 2400
+$Comp
+L Transistor_FET:Si2371EDS Q2
+U 1 1 58E14EB1
+P 6150 2500
+F 0 "Q2" V 6300 2650 50  0000 R CNN
+F 1 "SI2323" V 6300 2450 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6350 2600 50  0001 C CNN
+F 3 "" H 6150 2500 50  0000 C CNN
+F 4 "Vishay Siliconix" H 0   100 50  0001 C CNN "MFR"
+F 5 "SI2323DDS-T1-GE3" H 0   100 50  0001 C CNN "MPN"
+F 6 "SI2323DDS-T1-GE3CT-ND" H 0   100 50  0001 C CNN "SPN"
+F 7 "OPL" H 0   100 50  0001 C CNN "SPR"
+F 8 "150" H 6150 2500 50  0001 C CNN "Max Temp (C)"
+F 9 "-55" H 6150 2500 50  0001 C CNN "Min Temp (C)"
+	1    6150 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6150 3300 6150 2700
 $EndSCHEMATC
