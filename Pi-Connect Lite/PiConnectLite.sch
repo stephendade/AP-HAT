@@ -1685,4 +1685,70 @@ F 9 "-55" H 6150 2500 50  0001 C CNN "Min Temp (C)"
 $EndComp
 Wire Wire Line
 	6150 3300 6150 2700
+$Comp
+L Connector_Generic:Conn_01x06 J7
+U 1 1 614984A3
+P 4700 9800
+F 0 "J7" H 4728 9776 50  0000 L CNN
+F 1 "Conn_Telemetry" H 4728 9685 50  0000 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical" H 4700 9800 50  0001 C CNN
+F 3 "~" H 4700 9800 50  0001 C CNN
+F 4 "" H -650 750 50  0001 C CNN "MFR"
+F 5 "" H -650 750 50  0001 C CNN "MPN"
+F 6 "" H -650 750 50  0001 C CNN "SPN"
+F 7 "" H -650 750 50  0001 C CNN "SPR"
+F 8 "" H 4700 9800 50  0001 C CNN "Max Temp (C)"
+F 9 "" H 4700 9800 50  0001 C CNN "Min Temp (C)"
+	1    4700 9800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4900 9500 5500 9500
+Wire Wire Line
+	4900 9600 5500 9600
+Wire Wire Line
+	4900 9700 5500 9700
+Wire Wire Line
+	4900 9800 5500 9800
+Wire Wire Line
+	4900 9900 5500 9900
+Wire Wire Line
+	4900 10000 5500 10000
+$Comp
+L power:GND #PWR0110
+U 1 1 614C2A8D
+P 5500 10000
+F 0 "#PWR0110" H 5500 9750 50  0001 C CNN
+F 1 "GND" H 5505 9827 50  0000 C CNN
+F 2 "" H 5500 10000 50  0001 C CNN
+F 3 "" H 5500 10000 50  0001 C CNN
+	1    5500 10000
+	0    -1   -1   0   
+$EndComp
+Text Label 5300 9800 0    60   ~ 0
+P5V
+Text Label 3500 3400 0    50   ~ 0
+PI_UART4_TX
+Text Label 3500 3300 0    50   ~ 0
+PI_UART4_RX
+Text Label 5000 9700 0    50   ~ 0
+PI_UART4_TX
+Text Label 5000 9600 0    50   ~ 0
+PI_UART4_RX
+Wire Wire Line
+	3450 3300 4000 3300
+Wire Wire Line
+	3450 3400 4000 3400
+Wire Wire Line
+	3450 3500 4000 3500
+Wire Wire Line
+	3450 3600 4000 3600
+Text Label 3500 3600 0    50   ~ 0
+PI_UART4_CTS
+Text Label 3500 3500 0    50   ~ 0
+PI_UART4_RTS
+Text Label 5000 9900 0    50   ~ 0
+PI_UART4_CTS
+Text Label 5000 9500 0    50   ~ 0
+PI_UART4_RTS
 $EndSCHEMATC
