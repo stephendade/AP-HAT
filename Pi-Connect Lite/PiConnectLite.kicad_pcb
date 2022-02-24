@@ -3023,7 +3023,7 @@
   (gr_text "Ext\nSwitch" (at 135.8 78.1 90) (layer "F.SilkS") (tstamp 9f969b13-1795-4747-8326-93bdc304ed56)
     (effects (font (size 1 1) (thickness 0.2)))
   )
-  (gr_text "Pi-Connect Lite\nV1.4" (at 141.1 75.5 90) (layer "F.SilkS") (tstamp b456cffc-d9d7-4c91-91f2-36ec9a65dd1b)
+  (gr_text "Pi-Connect Lite\nV1.5" (at 141.1 75.5 90) (layer "F.SilkS") (tstamp b456cffc-d9d7-4c91-91f2-36ec9a65dd1b)
     (effects (font (size 1.2 1.2) (thickness 0.3)))
   )
   (gr_text "Int|Ext" (at 130.56 73.01) (layer "F.SilkS") (tstamp d655bb0a-cbf9-4908-ad60-7024ff468fbd)
