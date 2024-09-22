@@ -1,0 +1,14 @@
+### Module positions - created on Sun 27 Feb 2022 20:23:32 ###
+### Printed by Pcbnew version 6.0.2-378541a8eb~116~ubuntu20.04.1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val             Package                               PosX       PosY       Rot  Side
+D1        DIODE-SCHOTTKY  D_2010_5025Metric                 -99.6300   -82.1600   90.0000  bottom
+D3        30V             D_SMA                            -105.4800   -75.7400    0.0000  bottom
+D5        30V             D_SMA                            -100.1000   -75.3200  -90.0000  bottom
+J1        40HAT           PinSocket_2x20_P2.54mm_Vertical   -87.0000   -65.5000  -90.0000  bottom
+J7        Conn_Telemetry  PinHeader_1x06_P2.00mm_Vertical  -111.9000   -88.1000  -90.0000  bottom
+Q1        DMMT5401        SOT-23-6_Handsoldering            -91.0000   -69.5000  180.0000  bottom
+R4        10K             R_0603_1608Metric                 -92.5000   -73.2620   90.0000  bottom
+R5        47K             R_0402_1005Metric                 -87.0000   -71.0000   90.0000  bottom
+## End
