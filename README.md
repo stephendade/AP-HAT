@@ -4,17 +4,17 @@ This repository contains 3x archived hardware PCB designs for Raspberry
 Pi HAT's, created in KiCAD.
 
 > [!NOTE]
-> These boards are retired and their designs will be be maintained into the future
+> These boards are retired and their designs not will be be maintained into the future
 
 ## Pi-Kakute
 
-The Kakute HAT is an expansion board for the Raspberry Pi, which allows a KakuteF4 (non-AIO) to be interfaced (send telemetry to the Pi). Additionally, it contains breakout ports for RC In, GPS, Servo Out and others.
+The Kakute HAT is an expansion board for the Raspberry Pi, which allows a [KakuteF4](https://holybro.com/products/kakute-f4-v2-4) (non-AIO) to be interfaced (send telemetry to the Pi). Additionally, it contains breakout ports for RC In, GPS, Servo Out and others.
 
 It contains a 5V, 2.5A power supply for the Raspberry Pi and has power switches for both the Kakute and Pi.
 
 ## AP-HAT 1
 
-A forerunner of the Pi-Connect Lite V1 series. It feature many useful connectivity options
+A forerunner of the Pi-Connect Lite V1 series. It features many useful connectivity options
 and a robust power supply:
 - 7-30V, 3.5A power supply for the Raspberry Pi
 - Power button for safe shutdown of the Pi
